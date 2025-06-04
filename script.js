@@ -119,12 +119,12 @@ document.addEventListener('DOMContentLoaded', () => {
             calculator.updateDisplay();
         });
     });
-
+  // Equals button ke liye
     equalsButton.addEventListener('click', () => {
         calculator.compute();
         calculator.updateDisplay();
     });
-
+  // Clear button ke liye
     clearButton.addEventListener('click', () => {
         calculator.clear();
         calculator.updateDisplay();
