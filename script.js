@@ -94,11 +94,7 @@ class Calculator {
         }
     }
 }
-// DOM load hone ke baad event listeners attach karne ke liyegit init
-git add .
-git commit -m"update"
-git push origin main
-
+// DOM load hone ke baad event listeners attach karne ke liye
 document.addEventListener('DOMContentLoaded', () => {
     const previousOperandElement = document.querySelector('.previous-operand');
     const currentOperandElement = document.querySelector('.current-operand');
@@ -107,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const equalsButton = document.querySelector('.equals');
     const deleteButton = document.querySelector('.delete');
     const clearButton = document.querySelector('.clear');
-
+   // Calculator object banaya
     const calculator = new Calculator(previousOperandElement, currentOperandElement);
 
     numberButtons.forEach(button => {
