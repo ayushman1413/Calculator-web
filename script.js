@@ -4,7 +4,7 @@ class Calculator {
         this.currentOperandElement = currentOperandElement;
         this.clear();
     }
-
+  // Calculator reset karne ke liye method
     clear() {
         this.currentOperand = '0';
         this.previousOperand = '';
