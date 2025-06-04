@@ -57,6 +57,7 @@ class Calculator {
                 break;
             default:
                 return;
+                // Agar kuch match nahi hua to return
         }
         
         this.currentOperand = computation.toString();
