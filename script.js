@@ -35,7 +35,7 @@ class Calculator {
         this.previousOperand = this.currentOperand;
         this.currentOperand = '0';
     }
-
+   // Actual calculation karne ka method
     compute() {
         let computation;
         const prev = parseFloat(this.previousOperand);
