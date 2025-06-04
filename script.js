@@ -64,7 +64,7 @@ class Calculator {
         this.operation = undefined;
         this.previousOperand = '';
     }
-
+  // Display number ko format karne ka method (comma ke sath)
     getDisplayNumber(number) {
         const stringNumber = number.toString();
         const integerDigits = parseFloat(stringNumber.split('.')[0]);
