@@ -10,7 +10,7 @@ class Calculator {
         this.previousOperand = '';
         this.operation = undefined;
     }
-
+  // Last digit delete karne ke liye method
     delete() {
         if (this.currentOperand === '0') return;
         this.currentOperand = this.currentOperand.toString().slice(0, -1);
