@@ -83,7 +83,7 @@ class Calculator {
             return integerDisplay;
         }
     }
-
+ // Display update karne ke liye method
     updateDisplay() {
         this.currentOperandElement.innerText = this.getDisplayNumber(this.currentOperand);
         if (this.operation != null) {
