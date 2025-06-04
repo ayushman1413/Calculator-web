@@ -94,6 +94,10 @@ class Calculator {
         }
     }
 }
+// DOM load hone ke baad event listeners attach karne ke liyegit init
+git add .
+git commit -m"update"
+git push origin main
 
 document.addEventListener('DOMContentLoaded', () => {
     const previousOperandElement = document.querySelector('.previous-operand');
