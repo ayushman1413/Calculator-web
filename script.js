@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
             calculator.updateDisplay();
         });
     });
-
+// Har operator button ke liye click event
     operationButtons.forEach(button => {
         button.addEventListener('click', () => {
             calculator.chooseOperation(button.innerText);
