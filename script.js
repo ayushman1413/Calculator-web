@@ -16,7 +16,7 @@ class Calculator {
         this.currentOperand = this.currentOperand.toString().slice(0, -1);
         if (this.currentOperand === '') this.currentOperand = '0';
     }
-
+  // Number ya dot add karne ke liye method
     appendNumber(number) {
         if (number === '.' && this.currentOperand.includes('.')) return;
         if (this.currentOperand === '0' && number !== '.') {
