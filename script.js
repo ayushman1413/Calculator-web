@@ -25,7 +25,7 @@ class Calculator {
             this.currentOperand = this.currentOperand.toString() + number;
         }
     }
-
+ // Operation select karne ke liye method (+, -, ×, ÷)
     chooseOperation(operation) {
         if (this.currentOperand === '0') return;
         if (this.previousOperand !== '') {
