@@ -41,7 +41,7 @@ class Calculator {
         const prev = parseFloat(this.previousOperand);
         const current = parseFloat(this.currentOperand);
         if (isNaN(prev) || isNaN(current)) return;
-        
+            // Operation ke hisaab se computation
         switch (this.operation) {
             case '+':
                 computation = prev + current;
